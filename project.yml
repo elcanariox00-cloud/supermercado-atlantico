@@ -1,0 +1,19 @@
+name: SuperAtlantico
+options:
+  bundleIdPrefix: com.superatlantico
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  SuperAtlantico:
+    type: application
+    platform: iOS
+    sources: [SuperAtlantico]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.superatlantico.cliente
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Super Atlántico"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
